@@ -1,0 +1,26 @@
+{
+  "source": {
+    "path": "upstream",
+    "channel": "github-head",
+    "defaultBranch": "main",
+    "version": "0.15.2",
+    "rev": "02ec2b741510ccb65c4910ba6c8ee707ebc898fa"
+  },
+  "package": {
+    "repo": "beads-viewer",
+    "version": "0.15.2"
+  },
+  "binary": {
+    "name": "bv",
+    "package": "cmd/bv"
+  },
+  "nix": {
+    "goBuilder": "go125",
+    "vendorHash": "sha256-6DKLpWa6i9UZqEnt9ZuQnRWjZFsHv4IyeQhtCR8tGqs="
+  },
+  "meta": {
+    "description": "Keyboard-driven terminal interface for browsing Beads issue graphs",
+    "homepage": "https://github.com/Dicklesworthstone/beads_viewer",
+    "licenseSpdx": "MIT"
+  }
+}
