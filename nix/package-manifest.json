@@ -1,10 +1,13 @@
 {
   "source": {
-    "path": "upstream",
+    "type": "github",
+    "owner": "Dicklesworthstone",
+    "repo": "beads_viewer",
     "channel": "github-head",
     "defaultBranch": "main",
     "version": "0.15.2",
-    "rev": "02ec2b741510ccb65c4910ba6c8ee707ebc898fa"
+    "rev": "02ec2b741510ccb65c4910ba6c8ee707ebc898fa",
+    "hash": "sha256-WlZhzycf02s1tHMrr7CE4B1OFSiSLbp45WoZd+1ZIqE="
   },
   "package": {
     "repo": "beads-viewer",
