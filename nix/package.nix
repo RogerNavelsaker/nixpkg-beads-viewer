@@ -41,6 +41,7 @@ goBuilder {
   # 1.25. Keep the package compatible with the builder selected above.
   postPatch = ''
     substituteInPlace go.mod --replace-fail 'go 1.26.0' 'go 1.25.0'
+    substituteInPlace vendor/modules.txt --replace-fail 'go 1.26.0' 'go 1.25.0'
   '';
 
   doCheck = false;
