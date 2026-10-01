@@ -29,7 +29,7 @@ goBuilder {
   src = sourceRoot;
 
   vendorHash =
-    if manifest.nix ? vendorHash && manifest.nix.vendorHash != null
+    if manifest.nix ? vendorHash
     then manifest.nix.vendorHash
     else lib.fakeHash;
 
