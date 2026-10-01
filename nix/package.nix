@@ -36,6 +36,13 @@ goBuilder {
   subPackages = [ manifest.binary.package ];
   modRoot = manifest.nix.modRoot or ".";
   proxyVendor = manifest.nix.proxyVendor or false;
+
+  # The package source currently declares Go 1.26, while nixpkgs provides Go
+  # 1.25. Keep the package compatible with the builder selected above.
+  postPatch = ''
+    substituteInPlace go.mod --replace-fail 'go 1.26.0' 'go 1.25.0'
+  '';
+
   doCheck = false;
 
   meta = with lib; {
