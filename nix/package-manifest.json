@@ -19,7 +19,7 @@
   },
   "nix": {
     "goBuilder": "go125",
-    "vendorHash": "sha256-6DKLpWa6i9UZqEnt9ZuQnRWjZFsHv4IyeQhtCR8tGqs="
+    "vendorHash": null
   },
   "meta": {
     "description": "Keyboard-driven terminal interface for browsing Beads issue graphs",
