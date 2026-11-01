@@ -6,8 +6,8 @@
     "channel": "github-head",
     "defaultBranch": "main",
     "version": "0.15.2",
-    "rev": "c6994875f8e30121b8a1c2403ff30bbd94b56d6c",
-    "hash": "sha256-9FVcPMIeQNGyX4uadA/naFw1WnGLbu9w5siSf7LOpic="
+    "rev": "efc1e251bc161531dbae840a441f1d5a692b84fc",
+    "hash": "sha256-uFSkVvzgWhpeWyDLFr0MJMhIREGpcgkb4n3h9Zyp5tk="
   },
   "package": {
     "repo": "beads-viewer",
